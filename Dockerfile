@@ -1,5 +1,5 @@
 FROM node:22-alpine AS front-base
-
+aaa
 # Install dependencies only when needed
 FROM front-base AS front-deps
 RUN apk add --no-cache gcompat
